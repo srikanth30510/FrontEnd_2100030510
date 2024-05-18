@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Task2:Interactive Data Table</title>
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css">
+<link rel="stylesheet" href="task2.css">
+
+</head>
+<body>
+    <div>
+       <center> <h1 class="nb">Interactive Data Table</h1></center>
+    </div>
+    <br/><br/><br/><br/>
+    <center>
+    <h2>Click on table heads to get the filtering, sorting, pagination functions work</h2>
+    <h2>
+        You can add some data and get the filtering order also.
+    </h2>
+    <form id="df">
+        <label for="id">ID:</label>
+        <input type="text" id="id" name="id" required>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required>
+        <label for="course">Course:</label>
+        <input type="text" id="course" name="course" required>
+        <label for="marks">Marks:</label>
+        <input type="number" id="marks" name="marks" required>
+        <button type="submit">Add Row</button>
+    </form>
+<div>
+    <table id="dt">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Course</th>
+                <th>Marks</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+</div>
+</center>
+<div class="footer">
+    <p>&copy; 2024 | Name: Godavari Srikanth | ID: 2100030510</p>
+  </div>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="task2.js"></script>
+</body>
+</html>

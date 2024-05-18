@@ -1,0 +1,108 @@
+body {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: wheat;
+    min-height: 100vh;
+    margin: 0;
+    position: relative;
+}
+
+.fb {
+    margin-top: 50%;
+    padding: 20px;
+    background-color: #444;
+}
+
+#btn {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: rgb(108, 185, 240);
+    border-radius: 2em;
+    color: white;
+}
+
+.ff {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="checkbox"],
+input[type="radio"] {
+    margin-top: 5px;
+    padding: 5px;
+    width: 200px;
+    border: 1px solid #e92020;
+    border-radius: 5px;
+}
+
+input[type="checkbox"] {
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+input[type="radio"] {
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.delbtn {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delbtn:hover {
+    background-color: #c82333;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    color: white;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+#btn-container {
+    position: fixed;
+    top: 56px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 1; 
+}
